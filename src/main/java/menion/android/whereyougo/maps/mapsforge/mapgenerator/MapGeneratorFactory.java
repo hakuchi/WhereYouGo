@@ -58,7 +58,7 @@ public final class MapGeneratorFactory {
             case OPENSTREETMAP:
                 return new FormatURLTileDownloader(
                         18,
-                        "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                         "\u00a9 OpenStreetMap contributors, CC-BY-SA");
             case OPENSTREETMAP_DE:
                 return new FormatURLTileDownloader(
